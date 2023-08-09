@@ -1,0 +1,1000 @@
+ 1212  awk 'NR>1 { print }' file
+ 1213  ls
+ 1214  awk 'NR>1 { print }' /etc/passwd
+ 1215  cat /etc/passwd
+ 1216  awk 'NR>1 && NR>4 { print }' /etc/passwd
+ 1217  awk 'NR>1 && NR>4 {print}' /etc/passwd
+ 1218  clear
+ 1219  awk NR /etc/passwd
+ 1220  aw
+ 1221  awk NR /etc/shells
+ 1222  dis /etc/shells
+ 1223  awk '1' RS='' /etc/shells
+ 1224  awk '1' RS='bin' /etc/shells
+ 1225  sed
+ 1226  username
+ 1227  whoami
+ 1228  id username
+ 1229  id
+ 1230  [200~echo $USER
+ 1231  echo $USER
+ 1232  su -
+ 1233  su
+ 1234  su --login
+ 1235  su -- login
+ 1236  su --root
+ 1237  man su
+ 1238  su --login
+ 1239  sudo useradd danielp
+ 1240  su --danielp
+ 1241  su - danielp
+ 1242  passwd danielp
+ 1243  sudo passwd danielp
+ 1244  su - danielp
+ 1245  users
+ 1246  ls
+ 1247  su - danielp
+ 1248  sudo useradd -m danielp
+ 1249  ls -la /home/danielp
+ 1250  ~
+ 1251  cd ~
+ 1252  ls
+ 1253  cd /etc/passwd
+ 1254  cd /etc
+ 1255  ls
+ 1256  cat passwd
+ 1257  cat passwd | grep danielp
+ 1258  cd /home/danielp
+ 1259  su --danielp
+ 1260  su - danielp
+ 1261  sudo userdel danielp
+ 1262  mylastname = yourlastname
+ 1263  mylastname = Piatkovsky
+ 1264  "mylastname" = Piatkovsky
+ 1265  export mylastname = Piatkovsky
+ 1266  export mylastname = "Piatkovsky"
+ 1267  export mylastname = 5
+ 1268  export mylastname=5
+ 1269  export mylastname=piatkovsky
+ 1270  echo $mylastname
+ 1271  ls
+ 1272  ls mylastname
+ 1273  ~/Desktop
+ 1274  cd ~/Desktop
+ 1275  export mylastname=notpiatkovsky
+ 1276  echo mylastname
+ 1277  alias lsd= ls -la
+ 1278  alias lsd="ls -la"
+ 1279  alias -p
+ 1280  lsd
+ 1281  man alias
+ 1282  alias docs=~/Desktop/Documents
+ 1283  docs
+ 1284  alias docs="cd ~/Desktop/Documents"
+ 1285  ls
+ 1286  alias docs="cd ~/Documents"
+ 1287  docs
+ 1288  alias dl="cd ~/Downloads"
+ 1289  dl
+ 1290  alias cp="cp -i"
+ 1291  alias -p
+ 1292  reboot
+ 1293  alias -p
+ 1294  ping google.com
+ 1295  ls -t
+ 1296  netstat
+ 1297  alias firespot="netstat | head 10"
+ 1298  firespot
+ 1299  alias firespot="netstat head 10"
+ 1300  firespot
+ 1301  ls netstat
+ 1302  netstat
+ 1303  alias firespot="netstat | head 10"
+ 1304  firespot
+ 1305  alias firespot="netstat | head -10"
+ 1306  firespot
+ 1307  ss
+ 1308  alias firespot="ss | head -10"
+ 1309  ss
+ 1310  firespot
+ 1311  ls
+ 1312  alias -p
+ 1313  alert
+ 1314  cd ~/bash
+ 1315  cd ~/.bash
+ 1316  nano ~/.bashrc
+ 1317  vi ~/.bashrc
+ 1318  unalias firespot
+ 1319  alias -p
+ 1320  man ss
+ 1321  curl https://www.finedininglovers.com/article/types-of-olives-character
+ 1322  man curl
+ 1323  man ss -t
+ 1324  ss -t
+ 1325  ss
+ 1326  ss -t
+ 1327  Port
+ 1328  curl https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/article_1200_800/public/2023-02/olive-varieties%C2%A9iStock.jpg.webp?itok=Ir2Zulsb > olive.jpg
+ 1329  cat olive.jpg
+ 1330  clear
+ 1331  ls
+ 1332  curl https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/article_1200_800/public/2023-02/olive-varieties%C2%A9iStock.jpg.webp?itok=Ir2Zulsb > olive.jpg
+ 1333  wget -o https://www.finedininglovers.com/sites/g/files/xknfdk626/files/2023-02/olive-varieties-nyons%C2%A9iStock.jpg olive.jpg
+ 1334  wget -o https://www.finedininglovers.com/sites/g/files/xknfdk626/files/2023-02/olive-varieties-nyons%C2%A9iStock.jpg > olive.jpg
+ 1335  wget -O https://www.finedininglovers.com/sites/g/files/xknfdk626/files/2023-02/olive-varieties-nyons%C2%A9iStock.jpg > olive.jpg
+ 1336  wget -o olive.jpg https://www.finedininglovers.com/sites/g/files/xknfdk626/files/2023-02/olive-varieties-nyons%C2%A9iStock.jpg
+ 1337  feh olive.jpg
+ 1338  sudo apt install feh
+ 1339  feh olive.jpg
+ 1340  cat olive.jph
+ 1341  cat olive.jpg
+ 1342  rm olive.jpg
+ 1343  ls
+ 1344  mv olive-varieties-nyonsolive-varieties-nyons©iStock.jpg > olive.jpg
+ 1345  cat olive-varieties-nyonsolive-varieties-nyons©iStock.jpg > olive.jpg
+ 1346  cat olive-varieties-nyonsolive-varieties-nyons©iStock.jpg  olive.jpg
+ 1347  ls
+ 1348  feh olive-varieties-nyons©iStock.jpg
+ 1349  mv olive-varieties-nyonsolive-varieties-nyons©iStock.jpg  olive.jpg
+ 1350  ls
+ 1351  mv olive-varieties-nyonsolive-varieties-nyons©iStock.jpg > olive.jpg
+ 1352  pwd
+ 1353  mv olive-varieties-nyonsolive-varieties-nyons©iStock.jpg > /home/danielp15864/olive.jpg
+ 1354  mv /home/danielp15864/olive-varieties-nyonsolive-varieties-nyons©iStock.jpg > /home/danielp15864/olive.jpg
+ 1355  man mv
+ 1356  open olive-varieties-nyons©iStock.jpg
+ 1357  wget olive.jpg https://www.finedininglovers.com/sites/g/files/xknfdk626/files/2023-02/olive-varieties-kalamata%C2%A9iStock.jpg
+ 1358  open olive.jpg
+ 1359  ls
+ 1360  curl -o olive.jpg https://www.finedininglovers.com/sites/g/files/xknfdk626/files/2023-02/olive-varieties-kalamata%C2%A9iStock.jpg
+ 1361  ls
+ 1362  open olive.jpg
+ 1363  ifconfig
+ 1364  clear
+ 1365  pwd
+ 1366  cd ~
+ 1367  pwd
+ 1368  cd /etc
+ 1369  ls bashrc
+ 1370  vi bashrc
+ 1371  man usermod
+ 1372  cat /etc/group | grep sharing
+ 1373  cat /etc/passwd | grep sharing
+ 1374  cat /etc/passwd
+ 1375  su - user1
+ 1376  history
+ 1377  cp ~/Desktop/linux/zoo/birds/parrot/redparrot.txt ~/Desktop/linux/zoo/birds
+ 1378  grep cd 
+ 1379  grep cd
+ 1380  history | grep cd
+ 1381  find cd
+ 1382  ls
+ 1383  find gnome
+ 1384  man gnome
+ 1385  ifup
+ 1386  ifdown
+ 1387  memory
+ 1388  free
+ 1389  du
+ 1390  netplan
+ 1391  ethool
+ 1392  sudo apt install net-tools
+ 1393  modinfo bonding
+ 1394  clear
+ 1395  git init 
+ 1396  clear
+ 1397  ~/Desktop/linux
+ 1398  cd ~/Desktop/linux
+ 1399  c;er
+ 1400  clear
+ 1401  ~
+ 1402  cd ~
+ 1403  ls
+ 1404  mv olive.jpg > ~/Pictures
+ 1405  mv olive.jpg ~/Pictures
+ 1406  ls
+ 1407  ls Pictures
+ 1408  mkdir -p ~/grocery/bakery/{bread/{focaccia,cholla}},drinks/{juices/{pepsi,coke}}
+ 1409  tree
+ 1410  tree grocery
+ 1411  rm -r grocery
+ 1412  ls
+ 1413  cd Desktop
+ 1414  clear
+ 1415  mkdir -p ~/grocery/bakery/bread/{focaccia,cholla},drinks/juices/{pepsi,coke}}
+ 1416  tree
+ 1417  ls
+ 1418  cd linux
+ 1419  clear
+ 1420  mkdir -p ~/grocery/{bakery/bread/{focaccia,cholla},drinks}/juices/{pepsi,coke}}
+ 1421  ls
+ 1422  mkdir -p ~/grocery/{bakery/{bread/{focaccia,cholla}},drinks}/{juices/{pepsi,coke}}
+ 1423  ls
+ 1424  cd ..
+ 1425  cd..
+ 1426  cd ~
+ 1427  ls
+ 1428  rm -r grocery
+ 1429  ls
+ 1430  ~/Desktop
+ 1431  cd ~/Desktop
+ 1432  cd linux
+ 1433  clear
+ 1434  mkdir -p ~/Desktop/linux/grocery/{bakery/{bread/{focaccia,cholla}},drinks}/{juices/{pepsi,coke}}
+ 1435  ls
+ 1436  tree
+ 1437  mkdir -p ~/Desktop/linux/grocery/{bakery/bread/{focaccia,cholla}},{drinks/juices/{pepsi,coke}}
+ 1438  tree
+ 1439  ls
+ 1440  rm -r grocery
+ 1441  mkdir -p ~/Desktop/linux/grocery/{bakery/bread/{foccacia,cholla}},{drinks/juice/{pepsi,coke}}
+ 1442  tree
+ 1443  mkdir -p ~/Desktop/linux/grocery/{bakery/{bread/{foccacia,cholla}}},{drinks/{juice/{pepsi,coke}}}
+ 1444  tree
+ 1445  rm -r
+ 1446  rm -r grocery
+ 1447  mkdir -p ~/Desktop/linux/grocery/{bakery/{bread/{foccacia,cholla}},drinks/{juice/{pepsi,coke}}}
+ 1448  tree
+ 1449  rm -r grocery
+ 1450  mkdir -p ~/Desktop/linux/grocery/{bakery/{bread/{foccacia,cholla}},drinks/juice/{pepsi,coke}}
+ 1451  tree
+ 1452  mkdir -p ~/Desktop/linux/grocery/{bakery/{bread/{foccacia,cholla}},drinks/{juice/{pepsi,coke}}
+ 1453  rm -r grocery
+ 1454  mkdir -p ~/Desktop/linux/grocery/{bakery/{bread/{foccacia,cholla}},drinks/{juice/{pepsi,coke}}
+ 1455  tree
+ 1456  rm -r grocery
+ 1457  mkdir -p ~/Desktop/linux/grocery/{bakery/bread/{foccacia,cholla},drinks}/{juice/{pepsi,coke}
+ 1458  tre
+ 1459  tree
+ 1460  rm -r grocery
+ 1461  mkdir -p ~/Desktop/linux/grocery/{bakery/bread/{foccacia,cholla},drinks}/juice/{pepsi,coke}
+ 1462  tree
+ 1463  rm -r
+ 1464  rm -r grocery
+ 1465  clear
+ 1466  mkdir -p ~/Desktop/linux/grocery/bakery/bread/{foccacia,cholla}
+ 1467  mkdir -p ~/Desktop/linux/grocery/drinks/juices/{pepsi,coke}
+ 1468  tree
+ 1469  touch  ~/Desktop/linux/grocery/drinks/juices/coke/coke_not_healthy
+ 1470  ls grocery/drinks/juices/coke
+ 1471  chmod 555 grocery/drinks/juices/coke/coke_not_healthy
+ 1472  ls -l grocery/drinks/juices/coke
+ 1473  touch  ~/Desktop/linux/grocery/drinks/juices/pepsi/pepsi_zero
+ 1474  ls  ~/Desktop/linux/grocery/drinks/juices/pepsi
+ 1475  chmod 777 grocery/drinks/juices/pepsi/pepsi_zero
+ 1476  ls -l grocery/drinks/juices/pepsi
+ 1477  cp grocery/drinks/juices/pepsi/pepsi_zero grocery/bakery/bread/cholla
+ 1478  cp grocery/drinks/juices/pepsi/pepsi_zero grocery/bakery/bread/foccacia
+ 1479  tree grocery/bakery/bread
+ 1480  mv grocery/bakery/bread/cholla grocery/bakery/bread/petta
+ 1481  ls grocery/bakery/bread
+ 1482  mv grocery/bakery/bread/choll grocery/bakery/bread/petta
+ 1483  mv grocery/bakery/bread/petta grocery/bakery/drinks
+ 1484  ls -l grocery/drinks
+ 1485  tree
+ 1486  mv grocery/bakery/bread/drinks grocery/bakery/bread/petta
+ 1487  mv grocery/bakery/bread/drinks grocery/bakery/petta
+ 1488  mv grocery/bakery/drinks grocery/bakery/petta
+ 1489  tree
+ 1490  mv grocery/bread/petta grocery/drinks
+ 1491  mv grocery/bread/petta/ grocery/drinks
+ 1492  tree
+ 1493  mv grocery/bakery/bread/petta/ grocery/drinks
+ 1494  mv grocery/bakery/petta grocery/drinks
+ 1495  tree
+ 1496  rm -r grocery
+ 1497  ls
+ 1498  clear
+ 1499  mkdir stegid_hands_on
+ 1500  cd stegid_hands_on/
+ 1501  useradd user{1..3}
+ 1502  useradd user1
+ 1503  sudo useradd user1
+ 1504  sudo useradd user2
+ 1505  sudo useradd user3
+ 1506  cat /etc/passwd
+ 1507  cat /etc/passwd | grep home
+ 1508  cat /etc/passwd | grep (1000-1005)
+ 1509  cat /etc/passwd | grep {1000-1005}
+ 1510  cat /etc/passwd | grep [1000-1007]
+ 1511  cat /etc/passwd | grep 1000-1007
+ 1512  mkdir shared_directory
+ 1513  ls
+ 1514  groupadd file_sharing_group
+ 1515  sudo groupadd file_sharing_group
+ 1516  usermod -a -G file_sharing_group user1
+ 1517  sudo usermod -a -G file_sharing_group user1
+ 1518  sudo usermod -a -G file_sharing_group user2
+ 1519  sudo usermod -a -G file_sharing_group user3
+ 1520  groups
+ 1521  /etc/file_sharing_group
+ 1522  /etc/group
+ 1523  sudo /etc/group
+ 1524  sudo cat /etc/group
+ 1525  sudo cat /etc/group | grep file_sharing_group
+ 1526  sudo chmod g+s shared_directory
+ 1527  ls -l
+ 1528  su -user1
+ 1529  su - user1
+ 1530  passwd user1
+ 1531  sudo passwd user1
+ 1532  su - user1
+ 1533  chgrp file_sharing_group shared_directory
+ 1534  cd ~/Desktop/linux/stegid_hands_on
+ 1535  chgrp file_sharing_group shared_directory
+ 1536  sudo chgrp file_sharing_group shared_directory
+ 1537  ls -l
+ 1538  su - user1
+ 1539  ls -la /etc/group | grep file_sharing_group
+ 1540  cat -la /etc/group | grep file_sharing_group
+ 1541  cat /etc/group | grep file_sharing_group
+ 1542  vi /etc/group
+ 1543  ~/Desktop
+ 1544  cd ~/Desktop/linux/stegid_hands_on
+ 1545  ls
+ 1546  ls -l
+ 1547  su - user1
+ 1548  userdel user1
+ 1549  sudo userdel user1
+ 1550  sudo userdel user2
+ 1551  sudo userdel user3
+ 1552  cat /etc/motd
+ 1553  vi /etc/motd
+ 1554  cat /etc/motd
+ 1555  sudo cat /etc/motd
+ 1556  sudo nano /etc/motd
+ 1557  ls
+ 1558  /home
+ 1559  cd /home
+ 1560  ls
+ 1561  su - u2
+ 1562  sudo userdel u2
+ 1563  cd u2
+ 1564  sudo cd u2
+ 1565  sudo cd -s u2
+ 1566  sudo -s  cd u2
+ 1567  sudo -s cd u2
+ 1568  cd danielp15864
+ 1569  ls
+ 1570  cd /
+ 1571  ls
+ 1572  cd bin
+ 1573  ls
+ 1574  cd bash
+ 1575  cd ~
+ 1576  cd Desktop
+ 1577  ls
+ 1578  rm file1.txt
+ 1579  sudo nano /etc/motd
+ 1580  clear
+ 1581  df
+ 1582  ls -l | more
+ 1583  fdisk /dev/sbd
+ 1584  man fs/
+ 1585  man fs
+ 1586  nano /etc/motd
+ 1587  /bin/bash
+ 1588  echo $0
+ 1589  [200~c:pscp c:
+ 1590  ~c:pscp c:
+ 1591  [200~
+ 1592  c:pscp c:
+ 1593  C:Program FilesPuTTY>pscp Usersusersample.txt user@IP:~/Desktop
+ 1594  ~/Desktop/linux
+ 1595  cd ~/Desktop/linux
+ 1596  sudo apt install vsftpd
+ 1597  [200~write_enable=YES
+ 1598  write_enable=YES
+ 1599  clear
+ 1600  su -
+ 1601  su --login
+ 1602  df -h
+ 1603  df -h root
+ 1604  df -h |head 5
+ 1605  df -h | head -5 | sort
+ 1606  free
+ 1607  echo $0 
+ 1608  ifconfig
+ 1609  chroot_local_user=YES
+ 1610  ifconfig
+ 1611  ls
+ 1612  cd Desktop
+ 1613  ls
+ 1614  echo >> "hello again from linux"
+ 1615  echo $-
+ 1616  himBHs
+ 1617  shopt login_shell
+ 1618  login_shell    	off
+ 1619  echo $-himBHs
+ 1620  echo-$login_shell
+ 1621  echo $login_shell
+ 1622  echo $-login_shell
+ 1623  shopt login_shell
+ 1624  scp danielp15864@192.168.1.162:sample
+ 1625  echo "hello again from linux" >> sample.txt
+ 1626  cat sample.txt
+ 1627  echo "hello again from linux" >> sample.txt
+ 1628  ls
+ 1629  cat sample.txt.txt
+ 1630  echo "hello again from linux" >> sample.txt.txt
+ 1631  cat sample.txt.txt
+ 1632  nano sample.txt.txt
+ 1633  cat sample.txt
+ 1634  scp danielp15864@192.168.1.162:sample.txt ‪C:\Users\luffy\OneDrive\Desktop
+ 1635  scp danielp15864@192.168.1.162:sample.txt ‪C:\Users\luffy\OneDrive\Desktop\sample.txt.txt
+ 1636  cat sample.txt
+ 1637  ls
+ 1638  scp danielp15864@192.168.1.162:/home/danielp15864/Desktop/sample.txt ‪C:\Users\luffy\OneDrive\Desktop
+ 1639  ls
+ 1640  man scp
+ 1641  df
+ 1642  man sort
+ 1643  man ftp
+ 1644  scp danielp15864@192.168.1.162:/home/danielp15864/Desktop/sample.txt.txt ‪C:\Users\luffy\OneDrive\Desktop
+ 1645  df -T
+ 1646  cd /
+ 1647  df -T
+ 1648  fsck tmpfs
+ 1649  man dd
+ 1650  man exportrfs
+ 1651  man nfc
+ 1652  sudo apt get nfs
+ 1653  su apt-get nfs.utils rpcbind
+ 1654  users
+ 1655  root
+ 1656  whoami
+ 1657  whoisroot
+ 1658  useradd -s /bin/bash -m user1
+ 1659  sudo useradd -s /bin/bash -m user1
+ 1660  su - user1
+ 1661  passwd user1
+ 1662  sudo passwd user1
+ 1663  passwd user1
+ 1664  su - user1
+ 1665  echo $0
+ 1666  man sort
+ 1667  man yum
+ 1668  rpm -q
+ 1669  rpm -q /
+ 1670  rpm -q ~
+ 1671  cd Desktop
+ 1672  cd linux
+ 1673  clear
+ 1674  touch file.txt
+ 1675  rm file.txt
+ 1676  clear
+ 1677  cd ..
+ 1678  ls
+ 1679  nano file.txt
+ 1680  cat file.txt
+ 1681  scp danielp15864@192.168.1.162:/home/danielp15864/Desktop/file.txt ‪C:\Users\luffy\OneDrive\Desktop
+ 1682  scp
+ 1683  apt-update scp
+ 1684  apt update scp
+ 1685  apt get scp
+ 1686  apt install scp
+ 1687  sudo apt install scp
+ 1688  man scp
+ 1689  scp danielp15864@192.168.162:/home/danielp15864/Desktop/file.txt C:\UsersC:\Users\luffy\OneDrive\Desktop
+ 1690  scp danielp15864@192.168.162:/home/danielp15864/Desktop/file.txt C:\Users\luffy\Documents
+ 1691  scp danielp15864@192.168.162:/home/danielp15864/Desktop/file.txt C:\Users\luffy\1586\Documents
+ 1692  scp danielp15864@192.168.162:~/Desktop/file.txt C:\Users\luffy\OneDrive\Desktop
+ 1693  scp danielp15864@192.168.162:~/Desktop/file.txt C:c:\Users\luffy\OneDrive\Desktop
+ 1694  scp danielp15864@192.168.162:~/Desktop/file.txt C:\Users\luffy\OneDrive\Desktop
+ 1695  rm file.txt
+ 1696  cd Git
+ 1697  clear
+ 1698  ls
+ 1699  rm daily4file
+ 1700  clear
+ 1701  cd ..
+ 1702  c;ear
+ 1703  clear
+ 1704  ls
+ 1705  cat sample.txt
+ 1706  echo "hello again from linux" > sample.txt
+ 1707  cat sample.txt
+ 1708  scp -r danielp15864@192.168.162:~/Desktop/sample.txt C:\Users\luffy\OneDrive\Desktop
+ 1709  ifconfig
+ 1710  scp -r danielp15864@192.168.1.162:~/Desktop/sample.txt C:\Users\luffy\OneDrive\Desktop
+ 1711  scp -r danielp15864@192.168.1.162:home/danielp15864/Desktop/sample.txt C:\Users\luffy\OneDrive\Desktop
+ 1712  cd Git
+ 1713  git remote add origin https://github.com/DanielPotato/SCP_command.git
+ 1714  git branch -M main
+ 1715  git push -u origin main
+ 1716  git remote add origin https://github.com/DanielPotato/SCP_command.git
+ 1717  mkdir samplegit
+ 1718  mv sample.txt samplegit
+ 1719  cp sample.txt samplegit
+ 1720  ls
+ 1721  cd ..
+ 1722  ls
+ 1723  mv sample.txt Git/samplegit
+ 1724  cd Git
+ 1725  cd samplegit
+ 1726  ls
+ 1727  git init
+ 1728  git add .
+ 1729  git commit .
+ 1730  git commit -m .
+ 1731  git remote add origin https://github.com/DanielPotato/SCP_command.git
+ 1732  git branch -M main
+ 1733  git push -u origin main
+ 1734  git remote add origin https://github.com/DanielPotato/SCP_command.git
+ 1735  git push -u origin main https://github.com/DanielPotato/SCP_command.git
+ 1736  git push 
+ 1737  git push main https://github.com/DanielPotato/SCP_command.git
+ 1738  git remote add origin https://github.com/DanielPotato/SCP_command.git
+ 1739  git status
+ 1740  git log
+ 1741  git commit .
+ 1742  ls sample.txt
+ 1743  git push -u origin main origin https://github.com/DanielPotato/SCP_command.git
+ 1744  git push -u origin main
+ 1745  git push -u origin main
+ 1746  git remote add origin https://github.com/DanielPotato/scpcommand.git
+ 1747  git remote remove origin
+ 1748  git remote add origin https://github.com/DanielPotato/scpcommand.git
+ 1749  git init
+ 1750  git add .
+ 1751  git commit .
+ 1752  git status
+ 1753  git log
+ 1754  git branch -M main
+ 1755  git branch -m main
+ 1756  git branch main
+ 1757  git branch -M main
+ 1758  git push -u origin main
+ 1759  git commit -m
+ 1760  git commit -m .
+ 1761  cat sample.txt
+ 1762  git remote add origin
+ 1763  git remote add origin https://github.com/DanielPotato/scpcommand.git
+ 1764  git pull .
+ 1765  git push -u origin 
+ 1766  git push -u origin main
+ 1767  cd Desktop
+ 1768  cd Git
+ 1769  ls
+ 1770  cd samplegit
+ 1771  git push -u origin main
+ 1772  sudo git push -u origin main
+ 1773  git remote rm origin
+ 1774  git remote add origin git@github.com:DanielPotato/scpcommand.git
+ 1775  git commit .
+ 1776  git add .
+ 1777  git commit .
+ 1778  git push -u origin main
+ 1779  $ curl cheat.sh/find
+ 1780  $ curl cheat.sh
+ 1781  curl cheat.sh/ls
+ 1782  curl cheat.sh/find
+ 1783  curl cheat.sh/awk
+ 1784  curl ifconfig.co/city
+ 1785  curl cmc.rjldev.com
+ 1786  curl rate.sx
+ 1787  $ curl parrot.live
+ 1788  curl parrot.live
+ 1789  telnet freechess.org
+ 1790  nc towel.blinkenlights.nl 23
+ 1791  clear
+ 1792  curl cheat.sv/find
+ 1793  curl cheat.sh/find
+ 1794  find filename
+ 1795  find os
+ 1796  find operating system
+ 1797  curl cheat.sh/useradd
+ 1798  man useradd
+ 1799  clear
+ 1800  hash
+ 1801  cd Desktop
+ 1802  cd Git
+ 1803  git branch
+ 1804  mkdir newbranch
+ 1805  cd branch
+ 1806  git init
+ 1807  git branch
+ 1808  git checkout testig
+ 1809  git checkout
+ 1810  git branch testing
+ 1811  git branch
+ 1812  git log
+ 1813  ls
+ 1814  rm -r samplegit
+ 1815  ls
+ 1816  git log
+ 1817  git unbranch testing
+ 1818  curl cheat.sh/git
+ 1819  git branch -C testing
+ 1820  git branch
+ 1821  git branch -D testing
+ 1822  git branch 
+ 1823  curl cheat.sh/df
+ 1824  curl parrot.live
+ 1825  curl cheat.sh/tee
+ 1826  echo $PATH
+ 1827  cd /bin/bash
+ 1828  cd /bin
+ 1829  ls
+ 1830  ls -a
+ 1831  cat .bashrc
+ 1832  cd bash
+ 1833  cat bash
+ 1834  clear
+ 1835  cd /
+ 1836  ls
+ 1837  cd /etc/profile
+ 1838  /etc
+ 1839  cd /etc
+ 1840  ls | grep profile
+ 1841  cat profile.d
+ 1842  cat profile
+ 1843  clear
+ 1844  cd ~/
+ 1845  ls
+ 1846  cat pscp
+ 1847  rm pscp
+ 1848  cd snap
+ 1849  ls
+ 1850  cd ../Desktop/linux
+ 1851  ls
+ 1852  clear
+ 1853  mkdir -p cloud/{services/CloudTrail
+ 1854  ls
+ 1855  tree
+ 1856  clear
+ 1857  rm cloud
+ 1858  rm -r cloud
+ 1859  clear
+ 1860  mkdir -p Cloud/
+ 1861  rm -r Cloud
+ 1862  clear
+ 1863  mkdir -p Cloud/{Region/{Avalability_Zone,LocalZone},services}/CloudTrail
+ 1864  tree
+ 1865  cd ~/Desktop/linux/Cloud/Regio/LocalZone
+ 1866  cd ~/Desktop/linux/Cloud/Region/LocalZone
+ 1867  mkdir ../../services/cloudwatch
+ 1868  mkdir wavelengthzone
+ 1869  cd ..
+ 1870  cd services
+ 1871  cd CloudTrail
+ 1872  touch trailvswatch
+ 1873  echo "The Difference between CloudWatch and CloudTrail: CloudWatch focuses on the activity
+ 1874  of AWS services and resources, reporting on their health and performance. On the other
+ 1875  hand, CloudTrail is a log of all actions that have taken place inside your AWS
+ 1876  environment" > trailvswatch
+ 1877  cat trailvswatch
+ 1878  cp trailvswatch ../../Region/CloudTrail
+ 1879  ls -l ~/Desktop/linux/Cloud/CloudTrail
+ 1880  ls -l ~/Desktop/linux/Cloud/Region/CloudTrail
+ 1881  echo pwd
+ 1882  echp @PATH
+ 1883  echo $PATH
+ 1884  ls
+ 1885  cd ../..
+ 1886  cd ..
+ 1887  rm -r Cloud
+ 1888  git clone https://github.com/DanielPotato/test-branch.git
+ 1889  clear 
+ 1890  git clone https://github.com/DanielPotato/test-branch.git
+ 1891  cd ..
+ 1892  cd Git
+ 1893  cd ..
+ 1894  clear
+ 1895  mkdir my_project
+ 1896  git init
+ 1897  git clone https://github.com/DanielPotato/test-branch.git
+ 1898  git remote add origin https://github.com/DanielPotato/test-branch.git
+ 1899  git branch -M main
+ 1900  rm -r my_project
+ 1901  clear
+ 1902  git clone https://github.com/DanielPotato/test-branch.git
+ 1903  mkdir my_project
+ 1904  cd my_project/
+ 1905  git init
+ 1906  git branch -M main
+ 1907  touch note.txt | echo "This is a sample note file" > note.txt
+ 1908  cat note.txt
+ 1909  git add .
+ 1910  git status
+ 1911  git commit .
+ 1912  git commit -m .
+ 1913  git commit -m "Something something commit message" .
+ 1914  git branch updated-note
+ 1915  git branch
+ 1916  git branch -m updated-note
+ 1917  git checkout updated-note
+ 1918  git push -u origin main
+ 1919  echo " this text is written in the branch “updated-note” " >> note.txt
+ 1920  cat note.txt
+ 1921  git add .
+ 1922  git commit .
+ 1923  git checkout main
+ 1924  cat note.txt
+ 1925  git merge upated-note
+ 1926  git merge -n updated-note
+ 1927  cat note.txt
+ 1928  git push -u origin main
+ 1929  sudo git push -u origin main
+ 1930  git remote add origin https://github.com/DanielPotato/test-branch.git
+ 1931  git branch -M main
+ 1932  git push -u origin main
+ 1933  git remote add origin git@github.com:DanielPotato/test-branch.git
+ 1934  git push -u origin main
+ 1935  man git merge
+ 1936  ls
+ 1937  vi hello.sh
+ 1938  ./hello.sh
+ 1939  vo hello.sh
+ 1940  vi hello.sh
+ 1941  ./hello.sh
+ 1942  ls
+ 1943  echo hello.sh
+ 1944  vi hello.sh
+ 1945  vim -r hello.sh
+ 1946  vi -r hello.sh
+ 1947  ./hello.sh
+ 1948  vi hello.sh
+ 1949  ./hello.sh
+ 1950  vi hello.sh
+ 1951  ./hello.sh
+ 1952  vi hello.sh
+ 1953  ./hello.sh
+ 1954  vi scriptfilename.sh
+ 1955  ./scriptfile
+ 1956  ./scriptfilename
+ 1957  ./scriptfilename.sh
+ 1958  chmod u+x scriptfilename.sh
+ 1959  ./scriptfilename.sh
+ 1960  nano hello.sh
+ 1961  gedit hello.sh
+ 1962  ./scriptfilename.sh
+ 1963  ./hello.sh
+ 1964  gedut hello.sh
+ 1965  gedit hello.sh
+ 1966  echo $0
+ 1967  echo $@
+ 1968  echo $1
+ 1969  mv hello.sh sun.sh
+ 1970  ls
+ 1971  nano sun.sh
+ 1972  ./sun.sh
+ 1973  apt get vi
+ 1974* 
+ 1975  vi sun.sh
+ 1976  ./sun.sh
+ 1977  nano sun.sh
+ 1978  ./sun.sh
+ 1979  nano sun.sh
+ 1980  ./sun.sh
+ 1981  nano sun.sh
+ 1982  ./sun.sh
+ 1983  nano sun.sh
+ 1984  vi  sun.sh
+ 1985  nano sun.sh
+ 1986  ./sun.sh
+ 1987  nano sun.sh
+ 1988  ./sun.sh
+ 1989  nano sun.sh
+ 1990  ./sun.sh
+ 1991  nano sun.sh
+ 1992  ./sun.sh
+ 1993  nano sun.sh
+ 1994  ./sun.sh
+ 1995  nano sun.sh
+ 1996  ./sun.sh
+ 1997  nano sun.sh
+ 1998  ./sun.sh
+ 1999  nano sun.sh
+ 2000  ./sun.sh
+ 2001  nano sun.sh
+ 2002  ./sun.sh
+ 2003  nano sun.sh
+ 2004  ./sun.sh
+ 2005  nano sun.sh
+ 2006  ./sun.sh
+ 2007  nano sun.sh
+ 2008  ./sun.sh
+ 2009  nano sun.sh
+ 2010  ./sun.sh
+ 2011  nano sun.sh
+ 2012  ./sun.sh
+ 2013  nano sun.sh
+ 2014  ./sun.sh
+ 2015  nano sun.sh
+ 2016  ./sun.sh
+ 2017  nano sun.sh
+ 2018  ./sun.sh
+ 2019  nano sun.sh
+ 2020  ./sun.sh
+ 2021  nano sun.sh
+ 2022  ./sun.sh
+ 2023  nano sun.sh
+ 2024  ./sun.sh
+ 2025  nano sun.sh
+ 2026  ./sun.sh
+ 2027  nano sun.sh
+ 2028  ./sun.sh
+ 2029  nano sun.sh
+ 2030  ./sun.sh
+ 2031  nano sun.sh
+ 2032  ./sun.sh
+ 2033  nano sun.sh
+ 2034  ./sun.sh
+ 2035  nano sun.sh
+ 2036  ./sun.sh
+ 2037  nano sun.sh
+ 2038  ./sun.sh
+ 2039  nano sun.sh
+ 2040  ./sun.sh
+ 2041  nano sun.sh
+ 2042  ./sun.sh
+ 2043  nano sun.sh
+ 2044  ./sun.sh
+ 2045  nano sun.sh
+ 2046  ./sun.sh
+ 2047  nano sun.sh
+ 2048  ./sun.sh
+ 2049  nano sun.sh
+ 2050* 
+ 2051  nano sun.sh
+ 2052  ./sun.sh
+ 2053  nano sun.sh
+ 2054  ./sun.sh
+ 2055  nano sun.sh
+ 2056  ./sun.sh
+ 2057  nano sun.sh
+ 2058  ./sun.sh
+ 2059  nano sun.sh
+ 2060  ./sun.sh
+ 2061  nano sun.sh
+ 2062  ./sun.sh
+ 2063  nano sun.sh
+ 2064  ./sun.sh
+ 2065  nano sun.sh
+ 2066  ./sun.sh
+ 2067  nano sun.sh
+ 2068  ./sun.sh
+ 2069  nano sun.sh
+ 2070  ./sun.sh
+ 2071  nano sun.sh
+ 2072  ./sun.sh
+ 2073  nano sun.sh
+ 2074  ./sun.sh
+ 2075  nano sun.sh
+ 2076  ./sun.sh
+ 2077  nano sun.s
+ 2078  nano sun.sh
+ 2079  ./sun.sh
+ 2080  nano sun.sh
+ 2081* 
+ 2082  ./sun.sh
+ 2083  nano sun.sh
+ 2084  ./sun.sh
+ 2085  nano sun.sh
+ 2086  ./sun.sh
+ 2087  nano sun.sh
+ 2088  ./sun.sh
+ 2089  nano sun.sh
+ 2090  ./sun.sh
+ 2091  nano sun.sh
+ 2092  $argument=5
+ 2093  argument=5
+ 2094  echo $argument
+ 2095  nano sun.sh
+ 2096  ./sun.sh
+ 2097  nano sun.sh
+ 2098  ./sun.sh
+ 2099  nano sun.sh
+ 2100  ./sun.sh
+ 2101  argument=4
+ 2102  ./sun.sh
+ 2103  ./sun.sh $argument
+ 2104  argument=4
+ 2105  nano sun.sh
+ 2106  ./sun.sh $argument
+ 2107  echo $argument
+ 2108  ./sun.sh $argument
+ 2109  nano sun.sh
+ 2110  ./sun.sh $argument
+ 2111  nano sun.sh
+ 2112  argument=5
+ 2113  ./sun.sh $argument
+ 2114  nano sun.sh
+ 2115  ./sun.sh $argument
+ 2116  nano sun.sh
+ 2117* ./sun.sh ar
+ 2118  ./sun.sh argument 5
+ 2119  ./sun.sh 5
+ 2120  nano sun.sh
+ 2121  ./sun.sh 5
+ 2122  ls
+ 2123  rm sun.sh
+ 2124  ls
+ 2125  rm '='
+ 2126  rm 18
+ 2127  rm scriptfilename.sh
+ 2128  ls
+ 2129  clear
+ 2130  cd Desktop/linux
+ 2131  clear
+ 2132  mkdir -p Pokemon/{Squirtle/{Warturtle,Arbok},Caterpie/{Metapod,Butterfree}}
+ 2133  tree
+ 2134  rm test-branch
+ 2135  rm -r test-branch
+ 2136  cd ~/Desktop/linux/Pokemon/Squirtle/Arbok
+ 2137  mv ~/Desktop/linux/Pokemon/Squirtle/Arbok ~/Desktop/linux/Pokemon/Squirtle/Blastoise
+ 2138  cd ..
+ 2139  ls
+ 2140  cd ..
+ 2141  cd Caterpie
+ 2142  cd Butterfree
+ 2143  vi FactabtWater
+ 2144  ls
+ 2145  mv FacabtWater ~/Desktop/linux/Pokemon/Squirtle/Warturtle
+ 2146  mv Butterfree/FacabtWater ~/Desktop/linux/Pokemon/Squirtle/Warturtle
+ 2147  mv FactabtWater ~/Desktop/linux/Pokemon/Squirtle/Warturtle
+ 2148  ls
+ 2149  cd ../../Squirtle/Warturtle
+ 2150  ls
+ 2151  cat FactabtWater
+ 2152  cd ../../
+ 2153  ls -l > iPokemon
+ 2154  cat iPokemon
+ 2155  cd ..
+ 2156  rm -r Pokemon
+ 2157  ls
+ 2158  clear
+ 2159  cd ..
+ 2160  clear
+ 2161  vi hello.sh
+ 2162  ./hello.sh
+ 2163  chmod u+x hello.sh
+ 2164  ./hello.sh
+ 2165  vi hello.sh
+ 2166  ./hello.sh
+ 2167  vi hello.sh
+ 2168  ./hello.sh
+ 2169  vi hello.sh
+ 2170  ./hello.sh
+ 2171  vi hello.sh
+ 2172  ./hello.sh
+ 2173  vi hello.sh
+ 2174  ./hello.sh
+ 2175  vi hello.sh
+ 2176  ./hello.sh
+ 2177  vi hello.sh
+ 2178  ./hello.sh
+ 2179  vi hello.sh
+ 2180  ./hello.sh
+ 2181  vi hello.sh
+ 2182  ./hello.sh
+ 2183  vi hello.sh
+ 2184  ./hello.sh
+ 2185  nano hello.sh
+ 2186  ./hello.sh
+ 2187  vi hello.sh
+ 2188  nano hello.sh
+ 2189  vi hello.sh
+ 2190  ./hello.sh
+ 2191  ./hello.sh name date
+ 2192  ./hello.sh pwd ls
+ 2193  nano hello.sh
+ 2194  ./hello.sh Daniel Guy
+ 2195  nano hello.sh
+ 2196  ./hello.sh Daniel Guy
+ 2197  nano hello.sh
+ 2198  ./hello.sh
+ 2199  nano hello.sh
+ 2200  clear
+ 2201  mkdir bashrepo
+ 2202  cd bashrepo
+ 2203  git init
+ 2204  cd ..
+ 2205  mv bashrepo mybash
+ 2206  cd my bash
+ 2207  cd mybash
+ 2208  git remote add origin git@github.com:DanielPotato/bash-repo.git
+ 2209  git branch -M main
+ 2210  git clone
+ 2211  history > history1.txt
